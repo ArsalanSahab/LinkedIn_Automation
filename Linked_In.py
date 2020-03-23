@@ -12,7 +12,7 @@ class LinkedinBot:
 
         
         # Initialise : ChromeDriver , Base_Url , Login_Url and Feed_Url
-        self.driver = webdriver.Chrome('path to chrome driver')
+        self.driver = webdriver.Chrome('chromedriver')
         self.base_url = 'https://www.linkedin.com'
         self.login_url = self.base_url + '/login'
         self.feed_url = self.base_url + '/feed'
